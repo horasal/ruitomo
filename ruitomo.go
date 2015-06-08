@@ -344,7 +344,7 @@ func jumpto(sig string) {
 }
 
 func main(){
-fmt.Println("terminal-loader\n(c)2012 zhaihj All right reserved.")
+fmt.Println("terminal-loader public domain.")
 	fmt.Print("checking audio device...")
 	if mixer.OpenAudio(mixer.DEFAULT_FREQUENCY, mixer.DEFAULT_FORMAT,
 		mixer.DEFAULT_CHANNELS, 4096) != 0 {
@@ -429,8 +429,7 @@ fmt.Println("terminal-loader\n(c)2012 zhaihj All right reserved.")
 			switch strings.ToUpper(strings.TrimSpace(command)) {
 			case "H", "HELP":
 				fmt.Println(`welcome to TerminalLoader!
-				This is a project for loading Virtual Novel in Terminal
-				Developed by zhaihj @ 2012
+				This is a project for loading Virtual Novel (krkr scripts)
 				command list:(case insensitive)
 				q/quit: quit program
 				n/next: next COMMAND
